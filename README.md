@@ -12,7 +12,7 @@ I decided that I wanted to calculate odds of n-game streaks in the last year or 
 
 1. These probabilities are for streaks of exactly n games, not streaks of at least n games.
 
-1. There may well be bugs in the code. I would appreciate review and commentary. The code I used is available on Github at https://github.com/guylsmith1972/hikaru_stats/blob/main/main.py
+1. There may well be bugs in the code. I would appreciate review and commentary.
 
 
 Here are my results. Due to numeric precision constraints, the probabilities for streaks less than 40 games evaluate to 100%, even though they are actually slightly less than 100% (less than the floating-point epsilon value):
